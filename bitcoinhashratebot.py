@@ -50,11 +50,11 @@ def tweet():
     api.update_status("Current Bitcoinh hashrate is: " + currentbitcoinahshratestring + " TH/s #hashrate #Bitcoin")
 
     logger.info(str(time.time()) + " before tweet() enter")
-    s.enter(60, 1, tweet)
+    s.enter(60*60, 1, tweet)
     logger.info(str(time.time()) + " end of tweet()")
 
 logger.info(str(time.time()) + " before main enter")
-s.enter(60, 1, tweet)
+s.enter(60*60, 1, tweet)
 logger.info(str(time.time()) + " after main enter")
 s.run()
 logger.info(str(time.time()) + " after main run")
