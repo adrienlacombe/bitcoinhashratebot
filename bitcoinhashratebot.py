@@ -46,8 +46,8 @@ def tweet():
     currentbitcoinahshratestring=str(currentbitcoinahshratetera)
 
     # Tweet
-    logger.info("Current Bitcoinh hashrate is: " + currentbitcoinahshratestring + " TH/s #hashrate #Bitcoin")
-    api.update_status("Current Bitcoinh hashrate is: " + currentbitcoinahshratestring + " TH/s #hashrate #Bitcoin")
+    logger.info("Current Bitcoin hashrate is: " + currentbitcoinahshratestring + " TH/s #hashrate #Bitcoin")
+    api.update_status("Current Bitcoin hashrate is: " + currentbitcoinahshratestring + " TH/s #hashrate #Bitcoin")
 
     logger.info(str(time.time()) + " before tweet() enter")
     s.enter(60*60, 1, tweet)
