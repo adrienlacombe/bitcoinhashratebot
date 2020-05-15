@@ -1,0 +1,6 @@
+*.pyc
+.git
+/.idea
+__pycache__
+*.csv
+.env/
