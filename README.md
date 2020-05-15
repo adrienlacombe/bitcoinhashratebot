@@ -1,4 +1,4 @@
-# bitcoinhashratebot
+# Bitcoin Hashrate Bot
 
 Hello, I am a bot, I tweet Bitcoin network hashrate every hour (or so) on  https://twitter.com/bitcoinhashrate
 
