@@ -1,6 +1,6 @@
 # bitcoinhashratebot
 
-Hello, I am a bot, I tweet Bitcoin network hashrate every hour (or so).
+Hello, I am a bot, I tweet Bitcoin network hashrate every hour (or so) on  https://twitter.com/bitcoinhashrate
 
 https://github.com/tweepy/tweepy is the Python library used to interact with Twitter API
 
