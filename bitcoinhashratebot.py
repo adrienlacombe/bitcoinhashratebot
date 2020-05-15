@@ -4,15 +4,15 @@ import sched
 import time
 import logging
 from bs4 import BeautifulSoup
-from os import environnement
+from os import environ
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
-CONSUMER_KEY = environnement['CONSUMER_KEY']
-CONSUMER_SECRET = environnement['CONSUMER_SECRET']
-ACCESS_KEY = environnement['ACCESS_KEY']
-ACCESS_SECRET = environnement['ACCESS_SECRET']
+CONSUMER_KEY = environ['CONSUMER_KEY']
+CONSUMER_SECRET = environ['CONSUMER_SECRET']
+ACCESS_KEY = environ['ACCESS_KEY']
+ACCESS_SECRET = environ['ACCESS_SECRET']
 
 # Authenticate to Twitter
 auth = tweepy.OAuthHandler("CONSUMER_KEY",
