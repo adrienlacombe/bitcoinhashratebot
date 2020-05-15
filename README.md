@@ -1,4 +1,3 @@
 # bitcoinhashratebot
 
-My project to learn about Twitter API, some web dev and stuffs.
-Goal is to code a Twitter bot.
+Hello, I am a bot, I tweet Bitcoin network hashrate every hour (or so).
